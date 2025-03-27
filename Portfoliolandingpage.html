@@ -12,8 +12,16 @@
 <body>
         <nav class="navbar">
             <div class="logo">
-                <a href="Portfoliolandingpage.html"><img src="port img/kof.png"/></a>
+                <a href="Portfoliolandingpage.html"><img src="port img/kof.png" /></a>
             </div>
+        
+            <!-- Hamburger Button -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        
             <ul class="nav-links">
                 <li><a href="#dems">Home</a></li>
                 <li><a href="#ope">About Me</a></li>
@@ -201,7 +209,7 @@
     <section class="project-section">
         <div class="project-container">
             <div class="project-description">
-                <h2>Business Portfolio: Jhoevan Miles Arnoco</h2>
+                <h2>Business Portfolio</h2>
                 <p>
                     A business portfolio website is a professional online platform that showcases a company’s products, services, achievements, and expertise. It's designed to attract potential clients, partners, and investors while serving as a digital business card.
                 </p>
@@ -229,7 +237,7 @@
                 </ul>
        
                 <div class="stats-image">
-                    <img src="port img/jove.gif" alt="GitHub Stats Image">
+                    <img src="port img/joven.gif" alt="GitHub Stats Image">
                 </div>
             </div>
         </div>
@@ -238,7 +246,7 @@
     <section class="project-section">
         <div class="project-container">
             <div class="project-description">
-                <h2>SmartServe: Digital Dining System</h2>
+                <h2>SmartServe</h2>
                 <p>
                     SmartServe is an innovative restaurant and cafe management system designed to revolutionize the way businesses handle operations. Built with cutting-edge technology, SmartServe simplifies every aspect of restaurant management, from inventory tracking and menu management to customer orders and kitchen monitoring.
 
@@ -551,13 +559,13 @@ In the digital age, where the internet serves as the backbone of global communic
           </div>
       </section>
     <script src="Portfoliolandingpage.js"></script>    
-    <footer class="footer" style="background-color:#3a506b;">
+    <footer class="footer" style="background-color:black;">
         <div class="footer-container">
             <div class="footer-about">
                 <img src="port img/kof.png" alt="About Us" class="about-img">
             </div>
             <div class="footer-links">
-                <h3 style="color: black; margin-left: -10px;">Resources</h3>
+                <h3 style="color: white; margin-left: -10px;">Resources</h3>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
@@ -566,8 +574,8 @@ In the digital age, where the internet serves as the backbone of global communic
                 </ul>
             </div>
             <div class="footer-contact">
-                <h3 style="color: black; margin-left: -10px;">Usefull links</h3>
-                <p>GitHub: <a href="https://github.com/anhyeuemm">https://www.awwwards.com/yeu/</a></p>
+                <h3 style="color: white; margin-left: -10px;">Usefull links</h3>
+                <p>GitHub: <a href="https://github.com/anhyeuemm">https://github.com/anhyeuem-dev</a></p>
                 <p>Awwwards:<a href="https://www.awwwards.com/yeu/">https://www.awwwards.com/yeu/</a> </p>
                 <p>Daily.Dev:<a href="https://app.daily.dev/anhyuem">https://app.daily.dev/anhyuem</a> </p>
             </div>
@@ -578,4 +586,12 @@ In the digital age, where the internet serves as the backbone of global communic
     </footer>
    
 </body>
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+    }
+</script>
+
+
 </html>
