@@ -1410,6 +1410,10 @@ only screen and (min-width:769px) */
     }
 }
  @media(max-width: 440px){
+    .nav-links li {
+        margin: 10px 0;
+        margin-left: 4px;
+    }
     .hamburger{
         margin-left: 110px;
     }
@@ -1426,6 +1430,10 @@ only screen and (min-width:769px) */
     }
 }
 @media(max-width: 400px){
+    .nav-links li {
+        margin: 10px 0;
+        margin-left: -2px;
+    }
     .hamburger{
         margin-left: 130px;
     }
@@ -1595,7 +1603,7 @@ only screen and (min-width:769px) */
 
 .nav-links li {
     margin: 10px 0;
-    margin-left: 10px;
+    margin-left: -2px;
 }
 .footer-contact{
     margin-left: -100px;
