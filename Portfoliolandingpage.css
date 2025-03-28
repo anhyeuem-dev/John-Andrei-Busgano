@@ -1065,10 +1065,21 @@ only screen and (min-width:769px) */
     }
 }
 
+@media(max-width: 1131px) {
+
+}
+
 @media(max-width: 960px){
-    .spinner{
-        display: none;
+    .hamburger{
+        margin-left: 550px;
     }
+    .demo p{
+        font-size: 75px;
+    }
+    .logo img{
+        margin-left: 70px;
+    }
+
     .stats-content ul li, h3{
         display: none;
     }
@@ -1098,7 +1109,295 @@ only screen and (min-width:769px) */
     }
 }
 
+
+@media(max-width: 927px){
+    .hamburger{
+        margin-left: 550px;
+    }
+    .demo p{
+        font-size: 70px;
+    }
+
+    .stats-content ul li, h3{
+        display: none;
+    }
+    .stats-content img{
+        margin-top: 10px;
+        margin-right: -10px;
+        width: 400px;
+        margin-left: -400px;
+    }
+    .project-description p{
+        display: none;
+    }
+    .stats-card{
+        height: 300px;
+        width: 400px;
+        margin-left: -480px;
+    }
+    .buttons a{
+       margin-top:370px; 
+    }
+    .project-description h2{
+        text-align: center;
+        margin-left: 100px;
+    }
+    .project-container{
+        margin-left: 60px;
+    }
+    .contact-info{
+        margin-left: 120px;
+    }
+    .card3{
+        margin-left: -50px;
+    }
+    .gkh{
+        margin-top: -15px;
+    }
+}
+
+@media(max-width: 893px){
+    .hamburger{
+        margin-left: 500px;
+    }
+    .demo p{
+        font-size: 65px;
+    }
+    .conta img{
+        width: 400px;
+    }
+
+    .stats-content ul li, h3{
+        display: none;
+    }
+    .stats-content img{
+        margin-top: 10px;
+        margin-right: -10px;
+        width: 400px;
+        margin-left: -400px;
+    }
+    .project-description p{
+        display: none;
+    }
+    .stats-card{
+        height: 300px;
+        width: 400px;
+        margin-left: -480px;
+    }
+    .buttons a{
+       margin-top:370px; 
+    }
+    .project-description h2{
+        text-align: center;
+        margin-left: 100px;
+    }
+    .project-container{
+        margin-left: 60px;
+    }
+    .contact-info{
+        margin-left: 120px;
+    }
+    .card3{
+        margin-left: -50px;
+    }
+    .gkh{
+        margin-top: -15px;
+    }
+}
+
+@media(max-width: 860px){
+   .demo p{
+    font-size: 60px;
+   }
+   .typewriter{
+    margin-bottom: 30px;
+   }
+}
+
+@media(max-width: 825px){
+    .demo p{
+     font-size: 55px;
+    }
+    .typewriter{
+     margin-bottom: 30px;
+    }
+    .conta img{
+        width: 350px;
+    }
+    .project-container{
+        margin-left: 20px;
+    }
+    .contact-info{
+        margin-left: 100px;
+    }
+    .logo img{
+        margin-left: 20px;
+    }
+ }
+ @media(max-width: 791px){
+    .demo p{
+        font-size: 50px;
+    }
+   .demo h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+   } 
+   .project-container{
+    margin-left: -10px;
+   }
+ }
+ @media(max-width: 757px){
+    .hamburger{
+        margin-left: 400px;
+    }
+    .conta img{
+        width: 300px;
+    }
+    .contact-info{
+        margin-left: 60px;
+    }
+ }
+ @media(max-width: 720px){
+    .conta {
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .de {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-img {
+        order: 1; /* Place image immediately below h1 */
+        margin: 15px 0;
+        height: 250px;
+    }
+
+    .de p {
+        order: 2; /* Ensures paragraphs come after the image */
+    }
+    .de h1{
+        margin-left: 250px;
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .conta img{
+        display: none;
+    }
+    .project-container{
+        margin-left: -30px;
+    }
+ }
+
+ @media(max-width: 650px){
+    .hamburger{
+        margin-left: 300px;
+    }
+    .de h1{
+        margin-left: 220px;
+    }
+    .project-container{
+        margin-left: -50px;
+    }
+    .stats-card{
+        width: 350px;
+    }
+    .stats-content img{
+        margin-left: 20px;
+    }
+ }
+
+ @media(max-width: 550px) {
+    .card3{
+        margin-left: -120px;
+    }
+    .contact-info{
+        margin-left: -50px;
+    }
+    .home-img{
+        display: none;
+    }
+    .demo p{
+        font-size: 40px;
+    }
+    .john{
+        margin-bottom: 60px;
+    }
+    .hamburger{
+        margin-left: 250px;
+    }
+    .project-container{
+        width: 400px;
+        margin-left: -70px;
+    }
+    .de h1{
+        margin-left: -70px;
+        font-size: 40px;
+    }
+    .stats-card{
+        margin-left: -380px;
+        width: 300px;
+    }
+    .stats-content img{
+        margin-left: -50px;
+    }
+    .project-description h2{
+        font-size: 25px;
+    }
+ }
+
+ @media(max-width: 500px){
+    .hamburger{
+        margin-left: 200px;
+    }
+    .container2{
+        margin-left: -50px;
+    }
+    .project-container{
+        margin-left: -100px;
+    }
+    .card3{
+        margin-left: -150px;
+    }
+    .contact-info{
+        margin-left: -80px;
+    }
+ }
+
+ @media(max-width: 450px){
+    .hamburger{
+        margin-left: 180px;
+    }
+    .de h1{
+        margin-left: 20px;
+    }
+    .container2{
+        margin-left: -50px;
+    }
+    .project-container{
+        margin-left: -120px;
+    }
+    .card3{
+        margin-left: -170px;
+    }
+    .contact-info{
+        margin-left: -90px;
+    }
+    .stats-content img{
+        width: 350px;
+        margin-left: -20px;
+    }
+ }
 @media(max-width: 400px){
+    .hamburger{
+        margin-left: 130px;
+    }
+    .spinner{
+        margin-left: -250px;
+    }
     .card3{
         margin-left: -200px;
     }
@@ -1112,12 +1411,21 @@ only screen and (min-width:769px) */
         display: none;
     }
    .de p{
-    margin-left: 100px;
+    margin-left: 30px;
    }
 
    .de h1{
-    font-size: 50px;
+    font-size: 40px;
+    margin-left: 10px;
 
+   }
+
+   .logo2 img{
+    height: 25px;
+   }
+
+   .logo img{
+    margin-left: -5px;
    }
 
    .stats-content img{
@@ -1140,9 +1448,6 @@ only screen and (min-width:769px) */
     margin-left: -300px;
 
 }
-.buttons a{
-   display: none;
-}
 .project-description h2{
     text-align: center;
     margin-left: 100px;
@@ -1156,3 +1461,97 @@ only screen and (min-width:769px) */
 }
  
  }
+
+ @media(max-width: 380px){
+    .hamburger{
+        margin-left: 110px;
+    }
+    .spinner{
+        margin-left: -250px;
+    }
+    .card3{
+        margin-left: -195px;
+        width: 330px;
+    }
+    .container-img{
+       display: none;
+    }
+    .card-container{
+        display: none;
+    }
+    .home-img{
+        display: none;
+    }
+   .de p{
+    margin-left: 30px;
+   }
+
+   .de h1{
+    font-size: 35px;
+    margin-left: 15px;
+
+   }
+
+   .logo2 img{
+    height: 25px;
+   }
+   .logo img{
+    margin-left: -5px;
+   }
+    .project-section .logo2{
+        display: none;
+    }
+   .stats-content img{
+    margin-top: -1px;
+    margin-right: -10px;
+    width: 280px;
+    margin-left: -255px;
+    margin-right: -30px;
+    height: 280px;
+
+}
+.company-logo{
+    width: 70px;
+}
+.project-description p{
+    display: none;
+}
+
+.project-description h2{
+    font-size: 25px;
+    margin-top: -10px;
+}
+.stats-card{
+    height: 280px;
+    width: 320px;
+    margin-left: -310px;
+}
+.container2{
+    margin-left: -70px;
+}
+.project-description h2{
+    text-align: center;
+    margin-left: 80px;
+}
+.project-container{
+    margin-left: -110px;
+    width: 450px;
+}
+.contact-info{
+    margin-left: -120px;
+}
+.buttons{
+    margin-top: 60px;
+}
+
+.nav-links li {
+    margin: 10px 0;
+    margin-left: 10px;
+}
+.footer-contact{
+    margin-left: -100px;
+}
+.footer-links{
+    margin-left: -100px;
+}
+}
