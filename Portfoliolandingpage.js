@@ -1,7 +1,7 @@
 const texts = [
     "FRONT-END WEB DEVELOPER", 
     "BACK-END WEB DEVELOPER", 
-    "GRAPHIC DESIGNER"
+    "ROBLOX GAME DEVELOPER"
 ]; // Array of texts to loop through
 let textIndex = 0; // Track the current text
 let charIndex = 0; // Track the current character in the text
