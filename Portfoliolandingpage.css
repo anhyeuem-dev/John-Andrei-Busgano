@@ -1391,6 +1391,22 @@ only screen and (min-width:769px) */
         margin-left: -20px;
     }
  }
+ @media(max-width: 480px){
+    .hamburger{
+        margin-left: 110px;
+    }
+    .spinner{
+        margin-left: -300px;
+    }
+}
+ @media(max-width: 440px){
+    .hamburger{
+        margin-left: 110px;
+    }
+    .spinner{
+        margin-left: -300px;
+    }
+}
 @media(max-width: 400px){
     .hamburger{
         margin-left: 130px;
