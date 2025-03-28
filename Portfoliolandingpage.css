@@ -5,7 +5,9 @@ body{
     font-family: "Bebas Neue", sans-serif;
 
 }
-
+a{
+    text-decoration: none;
+}
 html, body {
     overflow-x: hidden; /* Prevents horizontal scrolling */
     width: 100%;
@@ -448,7 +450,7 @@ transform: scale(1.2); /* Scale up the image on hover */
 
 .de{
   margin-right: 250px;
-  margin-top: 300px;
+  margin-top: 200px;
   color: black;
 
 }
@@ -458,7 +460,7 @@ transform: scale(1.2); /* Scale up the image on hover */
     color: white;
     left: 100px;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-right: -200px;
     margin-left: 50px;
 }
@@ -1398,6 +1400,14 @@ only screen and (min-width:769px) */
     .spinner{
         margin-left: -300px;
     }
+    .footer-contact{
+        margin-left: -100px;
+        text-align: center;
+    }
+    .footer-links{
+        margin-left: -100px;
+        text-align: center;
+    }
 }
  @media(max-width: 440px){
     .hamburger{
@@ -1405,6 +1415,14 @@ only screen and (min-width:769px) */
     }
     .spinner{
         margin-left: -300px;
+    }
+    .footer-contact{
+        margin-left: -100px;
+        text-align: center;
+    }
+    .footer-links{
+        margin-left: -100px;
+        text-align: center;
     }
 }
 @media(max-width: 400px){
@@ -1474,6 +1492,16 @@ only screen and (min-width:769px) */
 }
 .contact-info{
     margin-left: -120px;
+    
+}
+
+.footer-contact{
+    margin-left: -100px;
+    text-align: center;
+}
+.footer-links{
+    margin-left: -100px;
+    text-align: center;
 }
  
  }
@@ -1510,6 +1538,10 @@ only screen and (min-width:769px) */
 
    .logo2 img{
     height: 25px;
+   }
+
+   .logo2 a{
+    text-decoration: none;
    }
    .logo img{
     margin-left: -5px;
@@ -1567,9 +1599,11 @@ only screen and (min-width:769px) */
 }
 .footer-contact{
     margin-left: -100px;
+    text-align: center;
 }
 .footer-links{
     margin-left: -100px;
+    text-align: center;
 }
 .demosec{
     padding-bottom: 150px;
