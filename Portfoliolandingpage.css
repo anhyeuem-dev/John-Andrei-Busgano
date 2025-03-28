@@ -1603,7 +1603,7 @@ only screen and (min-width:769px) */
 
 .nav-links li {
     margin: 10px 0;
-    margin-left: -2px;
+    margin-left: -15px;
 }
 .footer-contact{
     margin-left: -100px;
