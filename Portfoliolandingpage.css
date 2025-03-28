@@ -1528,6 +1528,7 @@ only screen and (min-width:769px) */
 }
 .container2{
     margin-left: -70px;
+    margin-top: 30px;
 }
 .project-description h2{
     text-align: center;
@@ -1555,6 +1556,6 @@ only screen and (min-width:769px) */
     margin-left: -100px;
 }
 .demosec{
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 }
